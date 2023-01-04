@@ -1,2 +1,2 @@
 let lastDate = document.lastModified;
-document.querySelector("#lastModified").innerHTML = lastDate;
+document.querySelector("#lastModified").innerHTML = "Last Modified: " + lastDate;
