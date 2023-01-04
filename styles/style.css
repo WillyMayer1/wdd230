@@ -1,3 +1,7 @@
 nav {
     display: flex;
 }
+
+main {
+    width: 760px;
+}
