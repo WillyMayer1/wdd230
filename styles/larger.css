@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0 0;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+}
+
+p, a {
+    font-family: 'Robot', sans-serif;
+}
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 3rem;
+    align-items: center;
+    background-color: #0096c7;
+    padding: 1.5rem;
+    }
+nav a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+header {
+    display: flex;
+    background-color: #1d3557;
+}
+
+header img {
+    width: 8%;
+    height: 8%;
+    margin: -1em 1em;
+    border: 0.1rem solid black;
+}
+
+header h1 {
+    margin: auto auto;
+    font-size: 2.5rem;
+
+}
+
+main {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    padding: 2% 5%;
+    padding: 3em 3em;
+    width: 90%;
+    margin: 0 auto;
+    justify-items: center;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding-bottom: 1rem;
+    height: auto;
+    width: 50%;
+    display: inline-block;
+    
+}
+
+.card h3 {
+    background-color: #1d3557;
+    color: whitesmoke;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #1d3557;
+}
+
+footer a, footer p {
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    font-weight: 100;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+.highlight {
+    color: yellow;
+}
