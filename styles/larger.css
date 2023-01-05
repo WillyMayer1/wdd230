@@ -24,6 +24,7 @@ nav a {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     color: whitesmoke;
+    font-size: larger;
 }
 
 header {
@@ -34,13 +35,13 @@ header {
 header img {
     width: 8%;
     height: 8%;
-    margin: -1em 1em;
-    border: 0.1rem solid black;
+    margin: -1em 2em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 header h1 {
     margin: auto auto;
-    font-size: 2.5rem;
+    font-size: 2rem;
 
 }
 
@@ -50,23 +51,32 @@ main {
     padding: 2% 5%;
     padding: 3em 3em;
     width: 90%;
-    margin: 0 auto;
-    justify-items: center;
+}
+
+.cards {
+    display: flex;
+    width: 100%;
 }
 
 .card {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     padding-bottom: 1rem;
     height: auto;
+    margin: 3rem auto;
+    width: 25rem;
+}
+
+aside {
+    display: block;
     width: 50%;
-    display: inline-block;
-    
 }
 
 .card h3 {
     background-color: #1d3557;
     color: whitesmoke;
     text-align: center;
+    margin: 0 auto 1cm;
+    padding: 1%;
 }
 
 footer {
