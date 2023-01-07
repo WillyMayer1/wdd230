@@ -8,12 +8,21 @@ body {
     padding: 10px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, .headingFont {
     font-family: 'Crimson Text', sans-serif;
 }
 
-p {
+h4 {
+    font-size: 1.2em;
+}
+p, li, .scenarios {
     font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    width: 90%;
+}
+
+li {
+    text-align: start;
 }
 
 .colors {
