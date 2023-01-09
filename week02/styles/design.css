@@ -11,7 +11,8 @@ footer {
 
 .banner {
 	padding: 1rem;
-	background-color: #eee;
+	background-color: lightblue;
+
 }
 
 h1 {
@@ -34,7 +35,7 @@ article p {
 
 .callout {
 	color: black;
-	background-color: lightgray;
+	background-color: #eee;
     padding: 1rem;
 }
 
