@@ -7,7 +7,7 @@ darkButton.addEventListener("click", () => {
 		main.style.background = "#000";
 		main.style.color = "#fff";
         links.forEach((item) => item.style.color = "white");
-		darkButton.textContent = "Dark Mode ✔";
+		darkButton.textContent = "Dark Mode ❎";
 	} else {
 		main.style.background = "white";
 		main.style.color = "#000";
