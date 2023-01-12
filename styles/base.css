@@ -32,6 +32,76 @@ nav a {
 	font-size: larger;
 }
 
+li{
+    list-style-type: none;
+    margin-bottom: 15px;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  .link{
+    margin-left: 10px;
+    text-decoration: underline;
+  }
+  
+  .link:hover{
+    color: dodgerblue;
+  }
+  
+  .navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0 24px;
+  }
+  
+  .nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+  }
+  
+  .nav-branding{
+    font-size: 2rem;
+  }
+  
+  .nav-link{
+    transition: 0.7s ease;
+  }
+  
+  .nav-link:hover{
+    color: dodgerblue;
+  }
+  
+  .darkButton{
+    border: none;
+    transition: 0.7s ease;
+    background-color: "yellow";
+  }
+  
+  .darkButton:hover{
+    color: dodgerblue;
+  }
+  
+  .hamburger{
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+  }
+  
 header {
 	width: 100%;
 	display: flex;
@@ -118,3 +188,34 @@ footer p {
     width: 5%;
     height: 5%;
 }
+
+
+.hamburger{
+    display: block;
+  }
+  
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+  
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  
+  .nav-menu{
+    display: none;
+  }
+  
+  .nav-item{
+    margin: 20px;
+  }
+  
+  .nav-menu.active{
+    display: contents;
+    justify-content: space-between;
+  }
+  
