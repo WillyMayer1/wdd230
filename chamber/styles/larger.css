@@ -1,11 +1,18 @@
 @media screen and (min-width: 700px) {
+/*Header*/
 
+.hero-btn button {
+    font-size: 1em;
+}
 /*Main*/
 
 .cards, .spotlight {
     display: flex;
 }
 
+.card {
+    width: 100%;
+}
 .message {
     font-size: 1.5rem;
 }
