@@ -1,3 +1,19 @@
 @media screen and (min-width: 700px) {
 
+/*Main*/
+
+.cards, .spotlight {
+    display: flex;
+}
+
+.message {
+    font-size: 1.5rem;
+}
+
+/*Footer*/
+
+footer .name {
+    display: flex;
+    flex-direction: row;
+}
 }

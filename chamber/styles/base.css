@@ -45,7 +45,34 @@ h1, h2, h3 {
     top: 19rem;
     left: 10rem;
 }
+/*Main*/
 
+.card {
+    margin: 5px 5px;
+    background-color: whitesmoke;
+    border: 5px solid;
+    border-color: #9A8C98;
+    padding: 1px 10px;
+}
+
+.card h2 {
+    padding-left: 10px;
+    margin-bottom: 0px;
+}
+
+.card p {
+    padding: 0px 20px;
+}
+
+.message {
+    font-size: larger;
+    text-align: center;
+    border: 2px solid #22223B;
+    background-color: #9A8C98;
+    color: white;
+    padding: 30px 30px;
+}
+/*Footer*/
 footer {
     display: block;
     text-align: center;
