@@ -1,4 +1,9 @@
 @media screen and (min-width: 700px) {
+
+/*Nav*/
+nav {
+    flex-direction: row;
+}
 /*Header*/
 
 .hero-btn button {
