@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Roboto:wght@300&display=swap');
+
+body {
+    text-align: center;
+    margin: 10px auto;
+    width: 80%;
+    border: 5px solid darkblue;
+    padding: 10px;
+}
+
+h1, h2, h3, .headingFont {
+    font-family: 'Crimson Text', sans-serif;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+p, li, .scenarios {
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    width: 90%;
+}
+
+li {
+    text-align: start;
+}
+
+.colors {
+    margin: 20px auto 0;
+    border: 1px solid darkblue;
+    padding: 10px;
+}
+
+.first {
+    background-color: #22223B;
+}
+
+.second {
+    background-color: #4A4E69;
+}
+
+.third {
+    background-color: #9A8C98;
+}
+
+.fourth {
+    background-color: #C9ADA7;
+}
+
+.example {
+    width: 70%;
+    margin: 0 auto;
+}

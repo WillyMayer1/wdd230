@@ -1,0 +1,48 @@
+@media screen and (min-width: 700px) {
+	body {
+		height: auto;
+	}
+
+	nav {
+		display: flex;
+		flex-direction: row-reverse;
+		gap: 3rem;
+		align-items: center;
+		background-color: #0096c7;
+		padding: 1.5rem;
+	}
+
+	header img {
+		width: 5%;
+		height: 5%;
+		margin: -1em 2em;
+		box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	}
+
+	main {
+
+		padding: 2% 5%;
+		padding: 3em 3em;
+		width: 100%;
+	}
+
+	.cards {
+		display: flex;
+		width: 100%;
+	}
+
+	.card {
+		box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+		padding-bottom: 1rem;
+		height: auto;
+		margin: 3rem auto;
+		width: 25rem;
+	}
+
+
+	aside {
+		display: block;
+		width: 50%;
+	}
+
+}
