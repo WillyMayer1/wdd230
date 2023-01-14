@@ -3,23 +3,6 @@
 body {
     margin: 0 0;
 }
-/*Nav*/
-nav {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    background-color: #9A8C98;
-    justify-items: center;
-    padding: 0 auto;
-}
-
-.logo {
-    width: 80%;
-    grid-column: 1 / 2;
-    justify-items: center;
-}
-.menu {
-    grid-column: 2 / 3;
-}
 
 p {
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
@@ -28,6 +11,33 @@ p {
 
 h1, h2, h3 {
     font-family: "Crimson Text", sans-serif;
+}
+
+/*Nav*/
+nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: #9A8C98;
+    justify-items: center;
+    padding: 0 auto;
+    height: 150px;
+}
+
+.logo {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    width: 100%;
+    height: 100%;
+}
+
+.logo img {
+    margin-top: -20px;
+    margin-left: 40px;
+}
+.menu {
+    grid-column: 3/ 4;
+    grid-row: 1 / 3;
 }
 
 /*Header*/
@@ -54,11 +64,11 @@ header {
     margin: 0 auto,
 }
 .hero-btn button {
-    
     width: 100%;
     text-align: center;
     font-family: "Crimson Text", sans-serif;
-    font-size: 10px;
+    font-size: 50%;
+    opacity: calc(90%);
 }
 /*Main*/
 
