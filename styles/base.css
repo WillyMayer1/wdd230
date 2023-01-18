@@ -202,3 +202,12 @@
 	font-size: 2rem;
 	font-family:"Great Vibes", serif;
 }
+
+.maps {
+    display: flex;
+    justify-content: center;
+}
+iframe {
+    width: 70%;
+    margin: 0 auto;
+}
