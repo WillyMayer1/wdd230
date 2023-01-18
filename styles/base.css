@@ -171,4 +171,8 @@
      display: contents;
      justify-content: space-between;
 }
- 
+
+.temple {
+    width: 100%;
+    height: auto;
+}
