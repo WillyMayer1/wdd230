@@ -113,5 +113,27 @@ footer h3 {
     color: yellow;
 }
 
+.one {
+    margin: 5px 5px;
+    background-color: whitesmoke;
+    border: 5px solid;
+    border-color: #9A8C98;
+    padding: 1px 10px;
+    width: auto;
+    margin: 0 auto;
+}
 
+.two {
+    margin: 5px 5px;
+    background-color: whitesmoke;
+    border: 5px solid;
+    border-color: #9A8C98;
+    padding: 1px 10px;
+    width: auto;
+}
 
+.grid-img {
+    width: 80%;
+    padding: 10px 60px;
+    height: auto;
+}
