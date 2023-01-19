@@ -134,6 +134,10 @@ footer h3 {
 
 .grid-img {
     width: 80%;
-    padding: 10px 60px;
+    padding: 10px 50px;
     height: auto;
+}
+
+.grid-img:hover {
+    opacity:.5;
 }

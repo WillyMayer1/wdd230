@@ -61,6 +61,11 @@ main {
     margin: 0 0;
 }
 
+.grid-img {
+    width: 80%;
+    padding: 10px 3rem;
+}
+
 /*Footer*/
 
 .info {
