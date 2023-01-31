@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+h2 {
+    font-family: "Playfair Display", sans-serif;
+    color: lightseagreen;
+}
+
+section {
+    border: 10px solid #023e8a;
+    border-radius: 20px;
+    width: 100%;
+    background-color: #0096c7;
+}
