@@ -1,0 +1,32 @@
+{
+    "familyName" : "Mayer Family",
+    "dateSinceWard" : "10-15-2018",
+    "amountFamily" : 4,
+    "visitedByBishop" : true,
+    "members" : [
+      {
+        "name" : "Willian Mayer",
+        "gender" : "male",
+        "birthday": "08-10-1998"
+        
+      },
+      {
+        "name" : "Kevin Mayer",
+        "gender" : "male",
+        "birthday": "08-10-1998"
+        
+      },
+      {
+        "name" : "Alan Mayer",
+        "gender" : "male",
+        "birthday": "04-12-2006"
+        
+      },
+      {
+        "name" : "Navela Pulido",
+        "gender" : "female",
+        "birthday": "10-14-1964"
+        
+      }
+    ]
+  }
