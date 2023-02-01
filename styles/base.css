@@ -211,3 +211,8 @@ iframe {
     width: 70%;
     margin: 0 auto;
 }
+
+.weather {
+    display:flex;
+    align-items: center;
+}
