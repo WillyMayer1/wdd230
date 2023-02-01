@@ -1,0 +1,6 @@
+{
+    "week01": ["week01/holygrail.html", "week01/media-query.html"],
+    "week02": ["week02/bom.html", "week01/design.html"],
+    "week03": ["week03/bom.html", "week03/lazyload.html"],
+    "week05": ["week05/prophets.html", "week05/weather"]
+}
