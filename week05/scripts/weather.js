@@ -4,7 +4,7 @@ const currentTemp = document.querySelector('#current-temp');
   const weatherIcon = document.querySelector('#weather-icon');
   const captionDesc = document.querySelector('figcaption');
 
-  const url = 'https://api.openweathermap.org/data/2.5/weather?q=Trier,units=imperial&appid=24a1aa44fb130edfe986a180a96be51a';
+  const url = 'https://api.openweathermap.org/data/2.5/weather?q=Trier,germany&units=imperial&appid=24a1aa44fb130edfe986a180a96be51a';
 
   async function apiFetch() {
     try {
@@ -12,7 +12,7 @@ const currentTemp = document.querySelector('#current-temp');
       if (response.ok) {
         const data = await response.json();
         console.log(data);
-        displayData(data);
+        displayResults(data);
       } else {
           throw Error(await response.text());
       }
@@ -25,11 +25,9 @@ const currentTemp = document.querySelector('#current-temp');
 
   function displayResults(data) {
     currentTemp.innerHTML = `${data.main.temp}&deg;F`;
-    const iconsrc = `https://openweathermap.org/img/w/${weather.icon}`;
+    const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     let desc = data.weather[0].description;
     weatherIcon.setAttribute('src', iconsrc);
-    weatherIcon.setAttribute('___', _____);
+    //weatherIcon.setAttribute('___', _____);
     captionDesc.textContent = `${desc}`;
   }
-
-  displayResults();
