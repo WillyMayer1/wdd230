@@ -11,4 +11,8 @@ getLinks();
 
 function displayLinks(data) {
   
+  const title = document.createElement("p");
+  const link = document.createElement("a");
+
+  
 }
