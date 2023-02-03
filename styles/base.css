@@ -218,3 +218,12 @@ iframe {
     align-items: center;
     margin-right: 40px;
 }
+
+
+#links {
+    text-align: start;
+}
+
+#links li {
+    margin: 20px 0px;
+}
