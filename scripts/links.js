@@ -10,9 +10,10 @@ async function getLinks() {
 getLinks();
 
 function displayLinks(data) {
-  
-  const title = document.createElement("p");
-  const link = document.createElement("a");
-
-  
+    Object.values(data).forEach(val => {
+    console.log(val[0]);
+  });
 }
+
+//const title = document.createElement("p");
+//const link = document.createElement("a");

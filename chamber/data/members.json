@@ -1,0 +1,13 @@
+{
+    "companies": [
+        {
+            "name": "McDonalds",
+            "address": "You knoe",
+            "number": "000000",
+            "url": "www.google.com",
+            "imgur": "www.google.com",
+            "membership": 5,
+            "note": "nothing"
+        }
+    ]
+}
