@@ -4,6 +4,7 @@
 nav {
     display: flex;
     height: 150px;
+    flex-direction: row;
 }
 
 .logo {

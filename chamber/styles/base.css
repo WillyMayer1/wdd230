@@ -24,7 +24,10 @@ a {
 /*Nav*/
 
 nav {
+    display: flex;
     background-color: #9A8C98;
+    flex-direction: column;
+    align-items: center;
 }
 
 

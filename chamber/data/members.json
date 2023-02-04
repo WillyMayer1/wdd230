@@ -1,13 +1,67 @@
 {
     "companies": [
         {
-            "name": "McDonalds",
-            "address": "You knoe",
-            "number": "000000",
-            "url": "www.google.com",
-            "imgur": "www.google.com",
+            "name": "Bodega Roberto Bonfanti",
+            "address": "Terrada 2024, Perdriel, Lujan de Cuyo, Mendoza.",
+            "number": "+54 (261) 6582092",
+            "url": "https://www.vinosbonfanti.com.ar/",
+            "imgurl": "https://d26lpennugtm8s.cloudfront.net/stores/001/378/070/rte/Roberto%20Bonfanti%20svg11.svg",
             "membership": 5,
-            "note": "nothing"
+            "openingHours": "10:00am - 06:00pm"
+        },
+        {
+            "name": "Bodegas Tierras Altas",
+            "address": "Acceso Sur 6501. Lateral Este. Carrodilla, Lújan de Cuyo.",
+            "number": "+54 (261) 4960333",
+            "url": "https://familiavargasarizu.com/es/",
+            "imgurl": "https://familiavargasarizu.com/imagenes/logo-black.png",
+            "membership": 5,
+            "openingHours": "10:00am - 06:00pm"
+        },
+        {
+            "name": "Bodega Los Toneles",
+            "address": " Av. de Acceso Este 1360, M5519 Mendoza",
+            "number": "+54 (261) 4310403",
+            "url": "https://bodegalostoneles.com/",
+            "imgurl": "https://bodegalostoneles.com/wp-content/uploads/2018/11/Toneles_Logo-PNG-01.png",
+            "membership": 4,
+            "openingHours": "10:00am - 10:00pm"
+        },
+        {
+            "name": "Pulenta Estate",
+            "address": "Ruta Provincial 86 km 6,5, Alto Agrelo - Luján de Cuyo. (5509) Mendoza.",
+            "number": "+54 (261) 155076426",
+            "url": "https://www.pulentaestate.com/index.php",
+            "imgurl": "https://images.vivino.com/wineries/14299/logos/p63cj-OBQzSpf6IL4vAYpw.jpeg",
+            "membership": 5,
+            "openingHours": "09:00am - 23:00pm"
+        },
+        {
+            "name": "Bodega La Azul",
+            "address": "Caminos del Vino, M5561 Tupungato, Mendoza",
+            "number": "+54 262 2603443",
+            "url": "https://bodegalaazul.com/",
+            "imgurl": "https://docplayer.es/docs-images/75/72071007/images/6-0.jpg",
+            "membership": 4,
+            "openingHours": "12:30pm - 06:00pm"
+        },
+        {
+            "name": "Bodega Trapiche",
+            "address": "C. Nueva Mayorga s/n, M5513 Maipú, Mendoza",
+            "number": "+54 261 5207600",
+            "url": "https://www.trapiche.com.ar/",
+            "imgurl": "https://pbs.twimg.com/profile_images/1041380934673752064/1cqBsc_S_400x400.jpg",
+            "membership": 4,
+            "openingHours": "09:30am - 05:00pm"
+        },
+        {
+            "name": "Bodega Renacer",
+            "address": "Brandsen 1863. Luján de Cuyo. Mendoza - Argentina",
+            "number": "+54 261 391-1164",
+            "url": "https://www.bodegarenacer.com.ar/",
+            "imgurl": "https://i.pinimg.com/280x280_RS/a2/e8/e4/a2e8e4b80d1a5ed85ab89b309259bde6.jpg",
+            "membership": 5,
+            "openingHours": "12:00pm - 05:30pm"
         }
     ]
 }
