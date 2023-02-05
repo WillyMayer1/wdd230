@@ -4,6 +4,10 @@ body {
     margin: 0 0;
 }
 
+h3 {
+    font-family: 'Crimson Text', sans-serif;
+}
+    
 p {
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
@@ -145,6 +149,13 @@ footer h3 {
     opacity:.5;
 }
 
+/*Directory*/
+
+article,
+section {
+	margin: 0.5rem;
+}
+    
 section {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
@@ -160,16 +171,27 @@ section {
 .grid section {
 	flex-direction: column;
 	text-align: center;
+    height: 450px;
 }
 
 .grid section > * {
 	margin: 0.1rem;
 }
 
-.grid h3 {
-	font-family: "Caveat", cursive;
+.grid img {
+    width: 80%;
+    padding: 20px 10px;
 }
 
+.grid p {
+    padding: 0.5rem;
+}
+
+.grid a, .list a {
+    color: #22223B;
+    font-size: 18px;
+    font-weight: 900;
+}
 .list {
 	display: flex;
 	flex-direction: column;

@@ -46,7 +46,7 @@ function displayMembers(data) {
     section.appendChild(imgurl);
     section.appendChild(weburl);
     section.appendChild(membership);
-    section.append(opening);
+    section.appendChild(opening);
     section.appendChild(hr);
 
     members.appendChild(section);
