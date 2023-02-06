@@ -34,7 +34,7 @@ function displayLinks(data) {
     week01.innerHTML = `Week01: <a href="${data.week01[0]}">Holy Grail</a> | <a href="${data.week01[1]}">Media Query</a>`;
     week02.innerHTML = `Week02: <a href="${data.week02[0]}">Design Principles</a> | <a href="${data.week02[1]}">Responsive "Hamburger" Menu</a> | <a href="${data.week02[2]}">DOM Manipulation</a>`;
     week03.innerHTML = `Week03: <a href="${data.week03[0]}">Landscape Webp</a> | <a href="${data.week03[1]}">Lazy Load</a> | <a href="${data.week02[2]}">Responsive Website - srcset</a> | <a href="${data.week02[3]}">Web Store API - LocalStorage</a>`;
-    week04.innerHTML = `Week04: `;
+    week04.innerHTML = `Week04: <a href="${data.week04[0]}">CSS Pseudo-Class</a> | <a href="${data.week04[1]}">CSS Combinations</a> | <a href="${data.week04[2]}">HTML Tables for Data Presentation</a>`;
     week05.innerHTML = `Week05: <a href="${data.week05[0]}">CSS Pseudo Elements</a> | <a href="${data.week05[1]}">JSON Ward Members</a> | <a href="${data.week05[2]}">Prophets Fetch API</a> | <a href="${data.week05[3]}">Weather</a>`;
     week06.innerHTML = `Week06: `;
 
