@@ -157,7 +157,7 @@
           </div>
         
           <label for="keyphrase">Key Phrase:</label>
-          <input type="password" id="keyphrase" name="keyphrase" pattern="[a-z]*" required /> <!-- {min,max} -->
+          <input type="password" id="keyphrase" name="keyphrase" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{5,12}$" required /> <!-- {min,max} -->
           <label for="keyphrase2">Re-enter Key Phrase:</label>
           <input type="password" id="keyphrase2" name="keyphrase2" />
           <button id="btnSubmit" type="submit">Send Message</button>
