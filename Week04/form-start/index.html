@@ -34,31 +34,31 @@
         <form action="thanks.html" method="get">
             <fieldset>
                 <legend>Applicant information</legend>
-                <label for="">First Name* <input type="text" name="fname" required></label>
-                <label for="">Last Name* <input type="text" name="lname" required></label>
-                <label for="">Phone <input type="cel" name="phone" placeholder="123456789"></label>
-                <label for="">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                <label for="">Website <input type="url" name="url" placeholder="https://" required></label>
+                <label class="top" for="">First Name* <input type="text" name="fname" required></label>
+                <label class="top" for="">Last Name* <input type="text" name="lname" required></label>
+                <label class="top" for="">Phone <input type="cel" name="phone" placeholder="123456789"></label>
+                <label class="top" for="">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top" for="">Website <input type="url" name="url" placeholder="https://" required></label>
             </fieldset>
             <fieldset>
                 <legend>Course Information</legend>
                 <div>Audience</div>
-                <label for=""><input type="radio" name="audience" value="beginner" id=""> Beginner</label>
-                <label for=""><input type="radio" name="audience" value="intermediate" id=""> Intermediate</label>
-                <label for=""><input type="radio" name="audience" value="advanced" id=""> Advanced</label>
+                <label class="sbs" for=""><input type="radio" name="audience" value="beginner" id=""> Beginner</label>
+                <label class="sbs" for=""><input type="radio" name="audience" value="intermediate" id=""> Intermediate</label>
+                <label class="sbs" for=""><input type="radio" name="audience" value="advanced" id=""> Advanced</label>
 
                 <div>Software Needed</div>
-                <label for=""><input type="checkbox" name="editing" value="yes" id=""> Photo editing</label>
-                <label for=""><input type="checkbox" name="code" value="yes" id=""> Coding</label>
-                <label for=""><input type="checkbox" name="process" value="yes" id=""> Preprocessor</label>
-                <label for=""><input type="checkbox" name="client" value="yes" id=""> FTP Client</label>
+                <label class="sbs" for=""><input type="checkbox" name="editing" value="yes" id=""> Photo editing</label>
+                <label class="sbs" for=""><input type="checkbox" name="code" value="yes" id=""> Coding</label>
+                <label class="sbs" for=""><input type="checkbox" name="process" value="yes" id=""> Preprocessor</label>
+                <label class="sbs" for=""><input type="checkbox" name="client" value="yes" id=""> FTP Client</label>
             </fieldset>
             <fieldset>
                 <legend>Funding</legend>
-                <label for=""> Anticipated Completion Date<input type="date" name="completeDate" id=""></label>
-                <label for="">Course Subject
+                <label class="top" for=""> Anticipated Completion Date<input type="date" name="completeDate" id=""></label>
+                <label class="top" for="">Course Subject
                     <select name="subject" id="">
-                        <option value="">Please Select</option>
+                        <option value="">Please Select &#9662;</option>
                         <option value="software">Software Development</option>
                         <option value="creative">Creative Professional</option>
                         <option value="info">Information Technology</option>
@@ -69,10 +69,10 @@
                         <option value="security">Cyber Security</option>
                     </select>
                 </label>
-                <label for=""> How Many Authors<input type="number" name="authors" id=""></label>
+                <label class="top" for=""> How Many Authors<input type="number" name="authors" id=""></label>
 
             </fieldset>
-            <input type="submit" value="Propose My Course">
+            <input class="submitBtn" type="submit" value="Propose My Course">
         </form>
     </main>
 
