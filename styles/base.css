@@ -237,6 +237,7 @@ form {
 	grid-template-columns: 1fr 1fr;
 	width: auto;
 	align-items: center;
+    margin-bottom: 100px;
 }
 
 
@@ -269,7 +270,7 @@ select:focus {
 
 #formmessage,
 button {
-	grid-column: 1/3;
+	grid-column: 2/3;
 }
 
 input:valid + input::before {
@@ -299,3 +300,7 @@ input:valid + input::before {
 	}
 }
 
+.contact h1 {
+    color: black;
+    text-align: center;
+}
