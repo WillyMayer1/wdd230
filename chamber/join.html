@@ -49,28 +49,19 @@
       </div>
     </header>
     <main>
-    <div class="grid-discover">
-        <div class="one">
-          <h2>Photos</h2>
-          <hr />
-          <img class="grid-img" src="images/photo1.webp" loading="lazy" alt="Photo Mendoza">
-          <img class="grid-img" src="images/photo2.webp" loading="lazy" alt="Photo Mendoza">
-          <img class="grid-img" src="images/photo3.webp" loading="lazy" alt="Photo Mendoza">
-          <img class="grid-img" src="images/photo4.webp" loading="lazy" alt="Photo Mendoza">
-        </div>
-        <div class="two">
-          <h2>Weather</h2>
-          <div class="weather">
-            <figure>
-              <img id="weather-icon" src="" alt="" />
-              <figcaption></figcaption>
-            </figure>
-            <p>
-             <span id="current-temp"></span>
-           </p>
-          </div>
-        </div>
-    </div>
+      <div class="form">
+        <h1>Join with Us!</h1>
+        <fieldset>
+          <form action="" method="get">
+            <label for="">Name: <input type="text" name="fname" id="fname" placeholder="Your name" required></label>
+            <label for="">Lastname: <input type="text" name="lname" id="lname" placeholder="Your Lastname" required></label>
+            <label for="">Business Position: <input type="text" name="position" id="position" placeholder="e.g.: CEO, Accountant, etc." required></label>
+            <label for="">Email: <input type="email" name="email" id="email" placeholder="Your email" required></label>
+            <label for="">Phone Number: <input type="cel" name="phone-number" id="phone-number" placeholder="e.g.: 123456789" required></label>
+            <label for="">Business Name: <input type="text" name="bname" id="bname" placeholder="" required></label>
+          </form>
+        </fieldset>
+      </div>
     </main>
     <footer>
       <div class="main-footer">
@@ -87,6 +78,5 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/HamburgerMenu.js"></script>
-    <script src="scripts/weather.js"></script>
   </body>
 </html>
