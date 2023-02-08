@@ -229,3 +229,29 @@ section a {
 	font-family: "Roboto", Arial, sans-serif;
 	font-size: 0.9rem;
 }
+
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+h1 {
+    grid-column: 2 / 3;
+}
+
+form {
+    grid-column: 2 / 3;
+}
+
+textarea
+{
+  border:1px solid #999999;
+  width:95%;
+  margin:5px 0;
+  padding:3px;
+}
+
+.submitBtn {
+    margin: 10px 10px;
+}
